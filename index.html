@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bharathi A's portfolio showcasing web development skills, projects, education, and certifications.">
+    <title>Bharathi A | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Bharathi.A<span></span></a>
+
+            <button class="menu-btn" id="menuBtn"
+                    aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                    <h1>Hello, I'm <span>Bharathi.A</span></h1>
+                    <h2>Aspiring Full Stack Developer</h2>
+                    <p class="hero-description">
+                        I enjoy building web applications, solving problems,
+                        and learning new technologies. Explore my skills,
+                        projects, and development journey.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Explore Projects</a>
+                        <a href="Resume.pdf" class="btn btn-outline" target="_blank">
+                            View Resume
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/bharathiii/"
+                           target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                        <a href="https://github.com/bharathi-003"
+                           target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                        <a href="https://leetcode.com/problemset/"
+                           target="_blank" rel="noopener noreferrer">LeetCode ↗</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-frame">
+                        <img src="assets/my picture.jpeg"
+                             alt="Portrait of Bharathi A"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder">
+                            <span>BA</span>
+                            <p>Add your photo</p>
+                        </div>
+                    </div>
+                    <div class="floating-tag">Building. Learning. Growing.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                </div>
+
+                <div class="about-card">
+                    <div>
+                        <h3>My Development Journey</h3>
+                        <p>
+                            I am Bharathi A, an aspiring Full Stack Developer
+                            interested in creating useful and user-friendly
+                            web applications. My technical learning includes
+                            frontend development, backend development,
+                            databases, and Java programming.
+                        </p>
+                        <p>
+                            I have worked on a Blog Content Management System
+                            using React.js, Node.js, Express.js, and MySQL,
+                            along with a hand-gesture-based PC control project
+                            using Python and computer vision.
+                        </p>
+                        <p>
+                            I am eager to improve my development skills,
+                            contribute to real-world projects, and grow as a
+                            software developer.
+                        </p>
+                    </div>
+
+                    <div class="about-facts">
+                        <div class="fact">
+                            <span class="fact-number">02+</span>
+                            <span>Projects</span>
+                        </div>
+                        <div class="fact">
+                            <span class="fact-number">04</span>
+                            <span>Core Skill Areas</span>
+                        </div>
+                        <div class="fact">
+                            <span class="fact-number">∞</span>
+                            <span>Learning Mindset</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I WORK WITH</p>
+                    <h2>Technical <span>Skills</span></h2>
+                    <p>Technologies and tools I use in my learning and projects.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon">⌨</div>
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">⚙</div>
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>RESTful APIs</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">▤</div>
+                        <h3>Programming & Database</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python Basics</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">⌘</div>
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                            <li>Postman</li>
+                            <li>Axios</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I HAVE BUILT</p>
+                    <h2>My <span>Projects</span></h2>
+                    <p>Practical projects where I applied my technical knowledge.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">01</span>
+                            <span class="project-label">Full Stack</span>
+                        </div>
+                        <h3>Blog Content Management System</h3>
+                        <p>
+                            A web application that lets users create, view,
+                            edit, delete, search, and manage blog posts through
+                            a simple dashboard.
+                        </p>
+                        <div class="tags">
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MySQL</span>
+                            <span>REST API</span>
+                        </div>
+                        <a class="project-link"
+                           href="https://github.com/bharathi-003"
+                           target="_blank" rel="noopener noreferrer">
+                            View on GitHub ↗
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">02</span>
+                            <span class="project-label">Computer Vision</span>
+                        </div>
+                        <h3>Smart Hand Mouse Control</h3>
+                        <p>
+                            A real-time PC control system that uses hand
+                            gestures to control mouse actions. Face
+                            authentication helps restrict access to the
+                            authorized user.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>MediaPipe</span>
+                            <span>PyAutoGUI</span>
+                            <span>Face Recognition</span>
+                        </div>
+                        <a class="project-link"
+                           href="https://github.com/bharathi-003"
+                           target="_blank" rel="noopener noreferrer">
+                            View on GitHub ↗
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section section-alt" id="education">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY LEARNING JOURNEY</p>
+                    <h2>Education & <span>Training</span></h2>
+                </div>
+
+                <div class="education-grid">
+                    <article class="education-card">
+                        <span class="education-type">EDUCATION</span>
+                        <h3>Bachelor of Technology (B.Tech)</h3>
+                        <p class="institution">
+                            Sri Shanmugha College of Engineering Technology
+                        </p>
+                        <p class="education-date">July 2017 – March 2023</p>
+                    </article>
+
+                    <article class="education-card">
+                        <span class="education-type">TECHNICAL TRAINING</span>
+                        <h3>Web Development Training</h3>
+                        <p class="institution">QSpiders, Tiruchengode</p>
+                        <p class="education-date">July 2025 – August 2025</p>
+                        <p>
+                            Core Java, Advanced Java, SQL, HTML, CSS,
+                            JavaScript, and object-oriented programming.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATES -->
+        <section class="section" id="certificates">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">ACHIEVEMENTS</p>
+                    <h2>Certificates & <span>Learning</span></h2>
+                </div>
+
+                <div class="certificate-grid">
+                    <article class="certificate-card">
+                        <span class="certificate-icon">✦</span>
+                        <h3>Oracle Cloud Infrastructure Foundations</h3>
+                        <p>Oracle</p>
+                    </article>
+
+                    <article class="certificate-card">
+                        <span class="certificate-icon">✦</span>
+                        <h3>Fundamental Software Project Management</h3>
+                        <p>NPTEL</p>
+                    </article>
+
+                    <article class="certificate-card">
+                        <span class="certificate-icon">✦</span>
+                        <h3>Employability Skill Job Ready</h3>
+                        <p>AICTE</p>
+                    </article>
+
+                    <article class="certificate-card">
+                        <span class="certificate-icon">✦</span>
+                        <h3>Java Full Stack Developer Virtual Internship</h3>
+                        <p>AICTE</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Contact <span>Me</span></h2>
+                    <p>I'm open to discussing opportunities and development projects.</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <span>Email</span>
+                        <a href="mailto:bharathiananth003@gmail.com">
+                            bharathiananth003@gmail.com
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>Phone</span>
+                        <a href="tel:+919952152055">+91 99521 52055</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/bharathiii/"
+                           target="_blank" rel="noopener noreferrer">
+                            Connect on LinkedIn ↗
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>GitHub</span>
+                        <a href="https://github.com/bharathi-003"
+                           target="_blank" rel="noopener noreferrer">
+                            Explore my GitHub ↗
+                        </a>
+                    </div>
+
+                    <a class="btn btn-primary email-btn"
+                       href="mailto:bharathiananth003@gmail.com">
+                        Send Me an Email
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
