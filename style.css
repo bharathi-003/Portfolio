@@ -204,12 +204,21 @@ h3 {
 }
 
 .btn-primary {
-    background: var(--accent);
-    color: #15200b;
+    display: inline-block;
+    background-color: #9bea2f;
+    color: #080d1b;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: inherit;
+    transition: 0.3s ease;
 }
 
 .btn-primary:hover {
-    background: #b8f45e;
+    background-color: #8bd626;
+    transform: translateY(-2px);
 }
 
 .btn-outline {
